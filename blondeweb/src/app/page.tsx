@@ -4,6 +4,7 @@ import NavbarWeb from "../components/NavbarWeb";
 import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
 import { Divider } from "@heroui/react";
+import Services from "../components/Services";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
           <Hero />
           <Divider className="my-8 w-full bg-white/20" />
           <AboutUs />
+          <Divider className="my-8 w-full bg-white/20" />
+          <Services />
           <Divider className="my-8 w-full bg-white/20" />
         </div>
       </main>

@@ -28,6 +28,7 @@ export default function Hero() {
         </div>
 
         <Image
+          isBlurred
           alt="HeroUI hero Image"
           src="https://heroui.com/images/hero-card-complete.jpeg"
           width={600}
