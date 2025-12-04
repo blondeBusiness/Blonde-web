@@ -5,6 +5,8 @@ import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
 import { Divider } from "@heroui/react";
 import Services from "../components/Services";
+import Frecuently from "../components/Frecuently";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +21,10 @@ export default function Home() {
           <Divider className="my-8 w-full bg-white/20" />
           <Services />
           <Divider className="my-8 w-full bg-white/20" />
+          <Frecuently></Frecuently>
+          <Divider className="my-8 w-full bg-white/20" />
+          <Footer/>
+
         </div>
       </main>
     </div>
